@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(182, 21, 21);
+    text-align: center;
+}
+h2{
+    background-color: azure;
+    color: blue;
+    font-size: 50px;
+}
+
+button{
+    border-radius: 20px;
+    size: 20px;
+    font-size: 40px;
+    color: blueviolet;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: black;
+    color: azure;
+}
+
+input{
+    font-size: 40px;
+    color: rgb(192, 185, 211);
+    background-color: black;
+    
+}

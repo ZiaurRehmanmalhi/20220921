@@ -1,0 +1,40 @@
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="primeNo.css">
+    <title>Prime nunmber</title>
+
+</head>
+<body>
+    <h2>Total prime number loop</h2>
+    <button>Enter Number</button> <br> <br>
+    <input type="number" placeholder="Type in number" id="number"><br> <br>
+    <button onclick="demo()" id="result">Result</button>
+    <h3 id="show">Show all prime number</h3>
+    <script>
+        function demo() {
+            var num = document.getElementById("number").value;
+            var isPrime;
+            for (var i = 2; i <= num; i++) {
+                isPrime = 1;
+
+                for(var j = 2; j<= i/2; j++){
+                    if(i % j == 0){
+                        isPrime = 0;
+                        break;
+                    }
+                }
+                if(isPrime == 1){
+                    document.write(i +"<br>");
+                }
+            
+            }
+        }
+        
+
+
+
+
+    </script>
+
+</body>
+</html>
